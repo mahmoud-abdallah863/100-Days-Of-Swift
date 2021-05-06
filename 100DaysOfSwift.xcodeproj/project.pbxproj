@@ -12,6 +12,7 @@
 		1E7D76D72643726200082F70 /* tuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D76D62643726200082F70 /* tuples.swift */; };
 		1E7D76DA264384A800082F70 /* dictionaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D76D9264384A800082F70 /* dictionaries.swift */; };
 		1E7D76DD26438B7800082F70 /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D76DC26438B7800082F70 /* enum.swift */; };
+		1ECF93F72644A4DD00400D77 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECF93F62644A4DD00400D77 /* Functions.swift */; };
 		1EDFA77B261D1D3400B0697A /* lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDFA77A261D1D3400B0697A /* lists.swift */; };
 		1EF09772261D316E0049F032 /* sets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF09771261D316E0049F032 /* sets.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		1E7D76D62643726200082F70 /* tuples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tuples.swift; sourceTree = "<group>"; };
 		1E7D76D9264384A800082F70 /* dictionaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionaries.swift; sourceTree = "<group>"; };
 		1E7D76DC26438B7800082F70 /* enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
+		1ECF93F62644A4DD00400D77 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		1EDFA77A261D1D3400B0697A /* lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lists.swift; sourceTree = "<group>"; };
 		1EF09771261D316E0049F032 /* sets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 		1E2A3042261A760B0068253C /* 100DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				1ECF93F52644A4C500400D77 /* Day5 */,
 				1EDFA778261D1D1F00B0697A /* Day2 */,
 				1E2A304B261A76FC0068253C /* Day1 */,
 			);
@@ -82,6 +85,14 @@
 				1E2A304D261A80BC0068253C /* Random.swift */,
 			);
 			path = Day1;
+			sourceTree = "<group>";
+		};
+		1ECF93F52644A4C500400D77 /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				1ECF93F62644A4DD00400D77 /* Functions.swift */,
+			);
+			path = Day5;
 			sourceTree = "<group>";
 		};
 		1EDFA778261D1D1F00B0697A /* Day2 */ = {
@@ -156,6 +167,7 @@
 				1EF09772261D316E0049F032 /* sets.swift in Sources */,
 				1E2A304E261A80BC0068253C /* Random.swift in Sources */,
 				1E7D76DD26438B7800082F70 /* enum.swift in Sources */,
+				1ECF93F72644A4DD00400D77 /* Functions.swift in Sources */,
 				1E7D76D72643726200082F70 /* tuples.swift in Sources */,
 				1E7D76DA264384A800082F70 /* dictionaries.swift in Sources */,
 				1E2A3044261A760B0068253C /* main.swift in Sources */,
