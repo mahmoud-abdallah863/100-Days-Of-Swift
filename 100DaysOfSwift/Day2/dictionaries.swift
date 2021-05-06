@@ -9,7 +9,11 @@ import Foundation
 
 
 func mainDictionary() {
-    let emptyDictionary = [String: String]()
+    let emptyDictionary = Dictionary<String, String>()
+    let emptyDictionary2 = [String: String]()
+    print("Type of emptyDictionary: \(type(of: emptyDictionary))")
+    print("Type of emptyDictionary2: \(type(of: emptyDictionary2))")
+    print(type(of: emptyDictionary2))
     print("Is empty dictionary \(emptyDictionary.isEmpty)")
     
     
@@ -82,6 +86,12 @@ func mainDictionary() {
     
     print("Another char array = \(anotherCharactersArray)")
     print("Another num array = \(anotherNumbersArray)")
+    
+    
+    // Get value with default
+    print("------------------------")
+    let zValue = charNumDictionary["Z", default:-1]
+    print("charNumDictionary[Z] = \(zValue)")
     
 }
 
