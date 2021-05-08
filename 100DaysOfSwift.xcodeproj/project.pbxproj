@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E07EF3D264748F500243481 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E07EF3C264748F500243481 /* Closure.swift */; };
 		1E2A3044261A760B0068253C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A3043261A760B0068253C /* main.swift */; };
 		1E2A304E261A80BC0068253C /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A304D261A80BC0068253C /* Random.swift */; };
 		1E7D76D72643726200082F70 /* tuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D76D62643726200082F70 /* tuples.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1E07EF3C264748F500243481 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 		1E2A3040261A760B0068253C /* 100DaysOfSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 100DaysOfSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2A3043261A760B0068253C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1E2A304D261A80BC0068253C /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E07EF372647444600243481 /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				1E07EF3C264748F500243481 /* Closure.swift */,
+			);
+			path = Day6;
+			sourceTree = "<group>";
+		};
 		1E2A3037261A760B0068253C = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 		1E2A3042261A760B0068253C /* 100DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				1E07EF372647444600243481 /* Day6 */,
 				1ECF93F52644A4C500400D77 /* Day5 */,
 				1EDFA778261D1D1F00B0697A /* Day2 */,
 				1E2A304B261A76FC0068253C /* Day1 */,
@@ -170,6 +181,7 @@
 				1ECF93F72644A4DD00400D77 /* Functions.swift in Sources */,
 				1E7D76D72643726200082F70 /* tuples.swift in Sources */,
 				1E7D76DA264384A800082F70 /* dictionaries.swift in Sources */,
+				1E07EF3D264748F500243481 /* Closure.swift in Sources */,
 				1E2A3044261A760B0068253C /* main.swift in Sources */,
 				1EDFA77B261D1D3400B0697A /* lists.swift in Sources */,
 			);
