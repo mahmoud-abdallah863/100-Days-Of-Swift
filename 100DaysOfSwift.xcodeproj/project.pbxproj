@@ -62,6 +62,13 @@
 			path = Day6;
 			sourceTree = "<group>";
 		};
+		1E07EF402647569A00243481 /* Day8 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day8;
+			sourceTree = "<group>";
+		};
 		1E2A3037261A760B0068253C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +88,7 @@
 		1E2A3042261A760B0068253C /* 100DaysOfSwift */ = {
 			isa = PBXGroup;
 			children = (
+				1E07EF402647569A00243481 /* Day8 */,
 				1E07EF372647444600243481 /* Day6 */,
 				1ECF93F52644A4C500400D77 /* Day5 */,
 				1EDFA778261D1D1F00B0697A /* Day2 */,
